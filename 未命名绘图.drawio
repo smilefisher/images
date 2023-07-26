@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-26T09:17:39.436Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="hnaEubUYFNluDvbk2mga" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-26T09:25:34.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="Gw40QJ2XIyp8nfwH7jbD" version="21.6.5" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2236" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,6 +43,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="UwRnmioIXQC3HJMN28yl-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-1">
+          <mxGeometry x="45" y="580" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UwRnmioIXQC3HJMN28yl-25" value="解析数据" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="UwRnmioIXQC3HJMN28yl-24" parent="aM9ryv3xv72pqoxQDRHE-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="560" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="center" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="350" y="30" width="100" height="700" as="geometry" />
         </mxCell>
@@ -78,7 +89,7 @@
             <mxPoint x="90" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UwRnmioIXQC3HJMN28yl-20" value="使用client调用center&amp;nbsp;服务" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.48;exitY=0.638;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="UwRnmioIXQC3HJMN28yl-19" parent="1" source="aM9ryv3xv72pqoxQDRHE-1">
+        <mxCell id="UwRnmioIXQC3HJMN28yl-20" value="使用client调用center&amp;nbsp;服务&lt;br&gt;url，payload" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.48;exitY=0.638;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="UwRnmioIXQC3HJMN28yl-19" parent="1" source="aM9ryv3xv72pqoxQDRHE-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="325" y="500" as="sourcePoint" />
           </mxGeometry>
